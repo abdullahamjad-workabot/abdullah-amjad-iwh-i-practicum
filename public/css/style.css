@@ -56,3 +56,45 @@ input[type="submit"] {
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+
+/* Table styles */
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Times New Roman, serif;
+    margin: 40px 40px 20px 40px;
+}
+
+.table-container {
+    margin: 0 40px;
+}
+
+a.table-link {
+    color: #0000EE;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+thead tr {
+    background-color: #ffb6c1;
+}
+
+th {
+    padding: 8px 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #999;
+}
+
+td {
+    padding: 8px 20px;
+    border: 1px solid #999;
+    text-align: left;
+}
